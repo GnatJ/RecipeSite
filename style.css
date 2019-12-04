@@ -66,61 +66,63 @@ ul a:hover {
 /* NAVIGATION WITH DROPDOWN */
 
 nav {
-	font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 a {
-	text-decoration: none;
-	}
+    text-decoration: none;
+}
 
 ul {
-  	list-style: none;
-  	margin: 0;
-  	padding: 0;
-  	overflow: hidden;
-  	background: #9eacc7;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #9eacc7;
 }
 
 li {
-	display: block;
-	float: left;
-	position: relative;
-	padding: 1em;
- 	transition-duration: 0.5s;
- 	font-size: 36px;
-} 
+    color: #dfe3ec;
+    background: #9eacc7;
+    display: block;
+    float: left;
+    position: relative;
+    padding: 1rem 2rem;
+    transition-duration: 0.5s;
+    font-size: 36px;
+}
 
 li a {
-	color: #dfe3ec;
+    color: #dfe3ec;
 }
 
 li:hover {
-	cursor: pointer;
-	background: #7d90b5;
+    cursor: pointer;
+    background: #7d90b5;
 }
 
 ul li ul {
-	background: #9eacc7;
-	visibility: hidden;
-	opacity: 0;
-  	min-width: 5rem;
+    background: #9eacc7;
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
     position: absolute;
-  	transition: all 0.5s ease;
-  	margin-top: 1rem;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
     left: 0;
-  	display: none;
+    display: none;
 }
 
-ul li:hover > ul,
+ul li:hover>ul,
 ul li ul:hover {
-  	visibility: visible;
- 	 opacity: 1;
-  	display: block;
+    visibility: visible;
+    opacity: 1;
+    display: block;
 }
 
 ul li ul li {
     clear: both;
-  width: 100%;
+    width: 100%;
 }
 
 
