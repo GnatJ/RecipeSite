@@ -187,6 +187,15 @@ input[type=text] {
 	box-sizing: border-box;
 }
 
+input[type=email] {
+	padding: 5px;
+	width: 50%;
+	margin: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
 .comment {
 	padding: 5px;
 	width: 50%;
