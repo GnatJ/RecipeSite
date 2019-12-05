@@ -25,43 +25,6 @@ h1 a {
 	font-family: 'Quicksand', sans-serif;
 }
 
-/* ORIGINAL NAVIGATION 
-
-ul {
-  	list-style-type: none;
-  	margin: 0;
-  	padding: 0;
-  	overflow: hidden;
-  	background-color: #9eacc7;
-}
-
-li {
-  	float: left;
-}
-
-ul a {
-  	display: block;
-  	background-color: #9eacc7;
-  	color: #dfe3ec;
-	font-size: 36px;
-	padding: 20px;
-	text-decoration: none;
-	text-align: center;
-}
-
-ul a:hover {
-	color: #7d90b5;
-}
-
-#highlight {
-	background-color: #bfc7d9;
-	color: #7d90b5;
-	padding: 20px;
-}
-
-#clear {
-	clear: both;
-} */
 
 /* NAVIGATION WITH DROPDOWN */
 
