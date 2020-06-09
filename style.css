@@ -16,6 +16,8 @@ h1 a {
 .headimage {
 	position: relative;
 	vertical-align: bottom;
+	max-width:100%;
+	height:auto;
 }
 
 .SiteName {
@@ -24,6 +26,7 @@ h1 a {
 	left: 25px;
 	font-family: 'Quicksand', sans-serif;
 }
+
 
 
 /* NAVIGATION WITH DROPDOWN */
@@ -51,7 +54,6 @@ li {
     float: left;
     position: relative;
     padding: 1rem 2rem;
-    transition-duration: 0.5s;
     font-size: 36px;
 }
 
@@ -88,6 +90,12 @@ ul li ul li {
     width: 100%;
 }
 
+
+/* RESPONSIVE NAVIGATION */
+
+@media screen and (max-width: 720px) {
+	
+}
 
 /* END NAVIGATION */
 
@@ -204,7 +212,7 @@ input[type=email] {
 	border: 1px solid black;
 	border-radius: 5px;
 	box-sizing: border-box;
-	color: #afb9cf;
+	color: #435170;
 }
 
 button {
@@ -217,3 +225,5 @@ button {
 }
 
 /* END CONTACT FORM */
+
+
